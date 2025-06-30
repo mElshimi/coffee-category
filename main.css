@@ -55,6 +55,7 @@
 }
 .menu-body .category:nth-child(even) {
   background-image: url("assets/imgs/menu-background-img.jpg");
+  padding-bottom: 50px;
 }
 .menu-item img {
   width: 120px;
