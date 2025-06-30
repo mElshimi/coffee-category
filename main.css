@@ -1,0 +1,80 @@
+.menu-header {
+  background-image: url("assets/imgs/menu-title.jpg");
+  background-attachment: fixed;
+  background-position-x: center;
+  background-size: cover;
+  height: 450px;
+}
+.menu-header h1 {
+  font-size: 4rem;
+  font-family: "Marcellus", serif;
+  text-transform: uppercase;
+}
+
+.category-name {
+  font-size: 2.5rem;
+  font-family: "Marcellus", serif;
+  color: #262626;
+  text-transform: uppercase;
+}
+
+.category-header h2 {
+  font-size: 2.5rem;
+  font-family: "Marcellus", serif;
+  color: #262626;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.category-icon {
+  position: relative;
+  width: 30px;
+  margin: auto;
+}
+
+.category-icon::after {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 1px;
+  background-color: #856b5f;
+  top: 55%;
+  left: 45px;
+}
+.category-icon::before {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 1px;
+  background-color: #856b5f;
+  top: 55%;
+  right: 45px;
+}
+
+.menu-body .category:nth-child(odd) {
+  background-color: #fff;
+}
+.menu-body .category:nth-child(even) {
+  background-image: url("assets/imgs/menu-background-img.jpg");
+}
+.menu-item img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+.item-info h4 {
+  color: #262626;
+  font-family: Marcellus, sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.item-info p {
+  color: #262626;
+  line-height: 1.2em;
+  font-size: 15px;
+}
+.item-price {
+  font-size: 20px;
+  color: #262626;
+  font-family: Marcellus, sans-serif;
+  font-weight: 400;
+}
